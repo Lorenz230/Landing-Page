@@ -38,8 +38,6 @@ header a{
     box-shadow: 0px 2px 2px #663939;
     padding: 5px;
 
-
-
 }
 
 .logo{
@@ -49,6 +47,11 @@ header a{
 
 }
 
+.photo1{
+    width: 550px;
+    height: auto;
+}
+
 body{
     margin: 0;
     background-color: #eaa23c;
@@ -56,12 +59,66 @@ body{
     flex-direction: column;
 }
   
-
 .container{
+    display: flex;
     flex-direction: column;
-
+    align-items: center;
 }
 
-.section1{
+.section{
+    display: flex;
+    justify-content: center;
+    gap: 128px;
+    padding: 32px;
+}
+
+.head{
+    font-family: Helvetica, sans-serif;
+    color: white; 
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: Helvetica, sans-serif;
+    color: white; 
+    font-weight: bold;
+    font-size:large;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+}
+
+button{
+    border-radius: 2px;
+    font-size: large;
+    max-width: 200px;
+    padding: 5px;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: white;
+    font-weight: 600;
+    background-color: #2a8fdb;
+    border-color: #2a8fdb;
     
+}
+
+button:hover {
+    background-color: #63b0eb;
+    border-color: #63b0eb;
+  }
+
+.section1{
+    background: white;
+}
+
+card{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
