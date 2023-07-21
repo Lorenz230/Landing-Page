@@ -69,7 +69,8 @@ body{
     display: flex;
     justify-content: center;
     gap: 128px;
-    padding: 32px;
+    padding: 120px;
+
 }
 
 .head{
@@ -120,6 +121,7 @@ button:hover {
     gap: 32px;
     box-shadow: 5px 10px 20px black;
     padding-bottom: 60px;
+    padding-top: 60px;
 
 }
 
@@ -163,4 +165,78 @@ button:hover {
     padding-left: 400px;
     padding-right: 400px;
     background-color: #eee;
+    
+}
+
+.text1{
+    padding-left: 500px;
+    font-style: italic;
+    font-size: x-large;
+    font-weight: bold;
+    color: black;
+    text-shadow: none;
+
+}
+
+footer{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family: Helvetica, sans-serif;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    font-size: large;
+
+}
+
+
+.card2{
+    width: 800px;
+    height: 200px;
+    background-color: #2a8fdb;
+    border-radius: 20px;
+    padding: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+   
+
+
+}
+
+.section2{
+    display: flex;
+    background-color: white;
+    flex: auto;
+    justify-content: center;
+    align-content: center;
+    padding: 70px;
+
+    
+}
+
+.text2{
+    font-size: large;
+    max-width: 200px;
+    color: white;
+    font-weight: 600;
+    font-family: Helvetica, sans-serif;
+
+}
+
+.text3{
+    font-size: 15px;
+    color: white;
+    font-weight: 300;
+    font-family: Helvetica, sans-serif; 
+    max-width: 400px;
+}
+
+.card2 button{
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    margin-left: 500px;
+    margin-bottom: 80px;
+   
+    
 }
